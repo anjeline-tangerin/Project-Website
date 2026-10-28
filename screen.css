@@ -13,3 +13,12 @@ figcaption {
     font-style: italic;
     margin-top: 8px;
 }
+
+.sidebar {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 250px;
+    float: right;
+    margin: 10px;
+}
