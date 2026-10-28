@@ -1,1 +1,15 @@
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
 
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 8px;
+}
