@@ -131,8 +131,75 @@ Analyzing descriptive statistics is a great way to start appraising a dataset be
     </figure>
     </section>
 
+    <section>
+        <h2>Run inferals statistics</h2>
+        <p>Open PASW and upload the spreadsheet. (IIT labs in Stuart Building, room 112, have PASW. You can also download a 30-day free trial.)</p>
+        
+         <ol>
+            <li>When PASW starts, it will prompt you for a data source. Select Open an existing data source > More Files...</li>
+            <li>Set the file type to Excel, then find and open the file.</li>
+            <li>From the list, select the Formatted_Data worksheet. Click OK. You should now see the dataset.</li>
+        </ol>
 
+        <p>The most commonly used statistical methods and tests are found under the Analyze menu in the standard toolbar.</p>
+    
+        <p>Figure 5 shows where to find some common statistical methods and tests. Under PASW's Analyze menu, see if you can also find the following:</p>
+        
+         <ol>
+            <li>Wilcoxon-Mann-Whitney test</li>
+            <li>Simple linear regression</li>
+            <li>Non-parametric correlation</li>
+        </ol>
 
+        <figure>
+        <img src="images/datalesson_fig5.png" alt="Data Image">
+
+        <figcaption>
+             Don't assume PASW doesn't run a given test. Many are located under broader statistical classifications.
+        </figcaption>
+        </figure>
+
+        <p>Use your prior knowledge or the <a href="http://www.ats.ucla.edu" target="_blank">Choosing Correct Statistic</a> resource to  determine which statistic to run to find whether there is a significant difference in perc_usefulness between free_play and other tutorial types. </p>
+        
+        <div class="sidebar">
+    <p><h3>Consult <a href="http://www.ats.ucla.edu" target="_blank">UCLA's Choosing the Correct Statistic</a> to ensure the statistical anlaysis is appropriate for your research question(s), variables of interest, and associated data types.
+</p></h3>
+</div>
+
+    </section>
+
+    <section>
+        <p>You should have determined that the Kruskal-Wallis one-way analysis of variance is the appropriate test. Go to Analyze > Nonparametric Tests > K Independent Samples... A new window will open prompting you to select the variables (by column name) to be tested.</p>
+
+        <ol>
+            <li>Select the perc_usefulness variable from the scrollable list on the left, and click the top arrow to move it to the Test Variable List (i.e. dependent variable).</li>
+            <li>Select the free_play variable from the scrollable list, and click the bottom arrow to move it to the Grouping Variable section (i.e. independent variable).</li>
+            <li>Click Define Range..., and enter "0" in the Minimum field and "1" in the Maximum field. This specifies the two categorical variables to be tested. Your screen should now look like Figure 6. Click Continue.</li>
+        </ol>
+
+        <figure>
+        <img src="images/datalesson_fig6.png" alt="Data Image">
+
+        <figcaption>
+             For Kruskal-Wallis, an independent (free_play) and a dependent variable (perc_usefulness) are selected.
+        </figcaption>
+        </figure>
+
+        <p>Click OK to display the statistical analysis results to new viewing window. Your results screen should look like Figure 7. Because statistical analysis output contains many numerical components (some of which must be cited in formal reports), it is a good idea to save it to a format independent of the PASW software. To save the results, go to File > Export. Change Document Type to the desired output format (Word, Excel, PDF, etc.), then click OK.</p>
+
+        <figure>
+        <img src="images/datalesson_fig7.png" alt="Data Image">
+
+        <figcaption>
+             PASW allows users to export statistics to common document types.
+        </figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Test your knowledge</h2>
+        <p>Now that you've finished the lesson, please complete a short quiz to test your understanding of formatting research datasets for comprehensive statistical analysis.</p>
+    </section>
 
 <nav>
     <ul>
@@ -147,8 +214,6 @@ Analyzing descriptive statistics is a great way to start appraising a dataset be
         <li><a href = "professionalization.html">Professionallization</a></li>
     </ul>
 </nav>
-
-    <p>Content coming soon!<p>
   
 </body>
 </html>
